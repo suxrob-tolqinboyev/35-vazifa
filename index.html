@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://www.builder.io/blog/stagger-text-animation-tailwind"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F6F7F9]">
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div
+            class="flex items-center d:justify-between justify-center gap-[191px]"
+          >
+            <div class="flex items-center d:gap-[64px] py-[32px] d:py-[40px]">
+              <div class="animate-bounce w-[148px] h-[44px] ...">
+                <img src="./assets/icons/logo.svg" alt="" class="" />
+              </div>
+              <div
+                class="hidden d:flex d:items-center d:h-[44px] d:px-[20px] py-[10px] border-y-[1px] border-x-[1px] rounded-[70px]"
+              >
+                <a href="#" class="pr-[20px]"
+                  ><span>
+                    <img
+                      src="./assets/icons/search-normal.svg"
+                      alt=""
+                      class="" /></span
+                ></a>
+                <label for=""></label>
+                <input
+                  placeholder="Search something here"
+                  class="outline-none h-[40px] pr-[235px] bg-[#F6F7F9]"
+                  type="text"
+                />
+                <a href="#" class=""
+                  ><span><img src="./assets/icons/filter.svg" alt="" /> </span
+                ></a>
+              </div>
+            </div>
+            <div class="flex items-center gap-[20px]">
+              <a
+                href="#"
+                class="hidden d:block p-[10px] border-[2px] rounded-[50px]"
+                ><span
+                  ><img src="./assets/icons/heart.svg" alt="" class="" /></span
+              ></a>
+              <a
+                href="#"
+                class="hidden d:block relative p-[10px] border-[2px] rounded-[50px]"
+                ><span
+                  ><img src="./assets/icons/notification.svg" alt="" class="" />
+                  <div class="absolute top-0 right-0">
+                    <span class="relative flex w-3 h-3">
+                      <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#ff442357] opacity-75"
+                      ></span>
+                      <span
+                        class="relative inline-flex rounded-full h-3 w-3 bg-[#FF4423]"
+                      ></span>
+                    </span>
+                  </div> </span
+              ></a>
+              <a
+                href="#"
+                class="hidden d:block p-[10px] border-[2px] rounded-[50px]"
+                ><span
+                  ><img
+                    src="./assets/icons/setting-2.svg"
+                    alt=""
+                    class="" /></span
+              ></a>
+              <a href="#" class=""
+                ><span
+                  ><img src="./assets/icons/Profil.svg" alt="" class="" /></span
+              ></a>
+            </div>
+          </div>
+          <div class="d:hidden flex items-center gap-[16px] justify-center">
+            <div
+              class="d:hidden flex items-center gap-[8px] h-[48px] py-[12px] px-[24px] border-x-[1px] border-y-[1px] rounded-[10px]"
+            >
+              <a href="#" class=""
+                ><span>
+                  <img
+                    src="./assets/icons/search-normal.svg"
+                    alt=""
+                    class="" /></span
+              ></a>
+              <label class="bg-[#F6F7F9]" for=""></label>
+              <input
+                placeholder="Search something here"
+                class="outline-none h-[40px] w-[183px] cursor-pointer bg-[#F6F7F9]"
+                type="text"
+              />
+            </div>
+            <div
+              class="py-[12px] px-[12px] border-x-[1px] border-y-[1px] rounded-[10px]"
+            >
+              <a href="#" class=""
+                ><span
+                  ><img
+                    src="./assets/icons/filter.svg"
+                    alt=""
+                    class=""
+                  /> </span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="">
+        <div class="container">
+          <div class="">
+            <div class="flex flex-col d:flex-row gap-[32px] items-center">
+              <div
+                class="card-7 text-white py-[24px] px-[24px] w-[327px] d:w-[100%] rounded-[10px]"
+              >
+                <h2 class="title">
+                  The Best Platform <br />
+                  for Car Rental
+                </h2>
+                <p class="text-[12px] font-[400] pt-[12px] pb-[16px]">
+                  Ease of doing a car rental safely and <br />
+                  reliably. Of course at a low price.
+                </p>
+                <a
+                  href="#"
+                  class="bg-[#3563E9] py-[14px] px-[28px] inline-block rounded-[4px] text-[12px] font-[600]"
+                  ><span>Rental Car</span></a
+                >
+                <div class="">
+                  <img src="./assets/icons/image 7.svg" alt="" class="" />
+                </div>
+              </div>
+              <div
+                class="card-2 text-white py-[24px] px-[24px] w-[100%] rounded-[10px] hidden d:block"
+              >
+                <h2 class="">
+                  Easy way to rent a <br />
+                  car at a low price
+                </h2>
+                <p class="text-[12px] font-[400] pt-[12px] pb-[16px]">
+                  Providing cheap car rental services <br />
+                  and safe and comfortable facilities.
+                </p>
+                <a
+                  href="#"
+                  class="bg-[#54A6FF] py-[14px] px-[28px] inline-block rounded-[4px] text-[12px] font-[600]"
+                  ><span>Rental Car</span></a
+                >
+                <div class="">
+                  <img src="./assets/icons/image 8.svg" alt="" class="" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center d:gap-[44px] pt-[32px] d:flex-row"
+            >
+              <div
+                class="p-[16px] bg-white w-[327px] rounded-[10px] d:w-[45%] d:py-[24px] d:px-[48px]"
+              >
+                <div class="flex items-center gap-[8px]">
+                  <div class="">
+                    <span class="relative flex w-3 h-3">
+                      <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3563E94D] opacity-75"
+                      ></span>
+                      <span
+                        class="relative inline-flex rounded-full h-3 w-3 bg-[#3563E9]"
+                      ></span>
+                    </span>
+                  </div>
+                  <h3 class="">Pick - Up</h3>
+                </div>
+                <div class="flex justify-between gap-[20px] pt-[24px]">
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Locations</h3>
+                    <a
+                      href="#"
+                      class="flex items-center text-[#90A3BF] gap-[4px] text-[12px] "
+                      ><span>Semarang</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                    
+                  </div>
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Date</h3>
+                    <a
+                      href="#"
+                      class="flex items-center w-[87px] text-[#90A3BF] gap-[4px] text-[12px] "
+                      ><span>20 July 2022</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                    
+                  </div>
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Time</h3>
+                    <a
+                      href="#"
+                      class="flex items-center text-[#90A3BF] gap-[4px] text-[12px] "
+                      ><span>07.00</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="p-[18px] bg-[#3563E9] rounded-[10px] relative top-[-15px] z-[1] d:hidden icon animate-bounce w-[60px] h-[60px] ..."
+              >
+                <img
+                  src="./assets/icons/Swap.svg"
+                  alt=""
+                  class=""
+                />
+              </div>
+
+              <div
+                class="hidden d:block p-[18px] bg-[#3563E9] rounded-[10px] size-[60px] animate-bounce w-[60px] h-[60px] ..."
+              >
+                <img src="./assets/icons/Swap.svg" alt="" class="" />
+              </div>
+              <div
+                class="p-[16px] bg-white w-[327px] mt-[-20px] d:m-0 rounded-[10px] d:w-[45%]"
+              >
+                <div class="flex items-center gap-[8px]">
+                  <div class="">
+                    <span class="relative flex w-3 h-3">
+                      <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#5CAFFC4D] opacity-75"
+                      ></span>
+                      <span
+                        class="relative inline-flex rounded-full h-3 w-3 bg-[#54A6FF]"
+                      ></span>
+                    </span>
+                  </div>
+                  <h3 class="">Drop - Off</h3>
+                </div>
+                <div class="flex justify-between gap-[20px] py-[24px] px-[48px]">
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Locations</h3>
+                    <a
+                      href="#"
+                      class="flex items-center text-[#90A3BF] gap-[4px] text-[12px]"
+                      ><span>Semarang</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                  </div>
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Date</h3>
+                    <a
+                      href="#"
+                      class="flex items-center w-[87px] text-[#90A3BF] gap-[4px] text-[12px]"
+                      ><span>20 July 2022</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                  </div>
+                  <div class="border-r-2 border-[#C3D4E966] pr-[20px]">
+                    <h3 class="font-[700]">Time</h3>
+                    <a
+                      href="#"
+                      class="flex items-center text-[#90A3BF] gap-[4px] text-[12px]"
+                      ><span>07.00</span
+                      ><img src="./assets/icons/arrow-down.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular">
+        <div class="container">
+          <div class="flex justify-between items-center mb-[20px]">
+            <p class="text-[14px] d:text-[16px] font-[600] text-[#90A3BF]">
+              Popular Car
+            </p>
+            <a
+              class="text-[12px] d:text-[16px] font-[600] text-[#3563E9]"
+              href="#"
+              >View All</a
+            >
+          </div>
+          <div class="wrapper grid d:grid-cols-4 items-center gap-[32px]">
+            <div class="card p-[16px] d:p-[24px] bg-white rounded-[10px]">
+              <div class="flex items-center justify-between mb-[5px] relative">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  Koenigsegg
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Sport
+              </p>
+              <div class="car relative mb-[44px] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/car (11).svg" alt="" />
+                <img
+                  class="absolute top-8"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">90L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">2 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $99.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px]"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  Nissan GT - R
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Sport
+              </p>
+              <div class="car relative mb-[44px] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/car (10).svg" alt="" />
+                <img
+                  class="absolute top-7"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">2 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <div class="stock h-[44px]">
+                  <h3 class="text-[22px] font-[700]">
+                    $80.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                  </h3>
+                  <h5 class="text-[#90A3BF] text-[12px] font-[700]">$100.00</h5>
+                </div>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px]"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  Rolls - Royce
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Sedan
+              </p>
+              <div class="car relative mb-[44px] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (1).svg" alt="" />
+                <img
+                  class="absolute top-8"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">70L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">4 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $96.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px] "
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  Nissan GT - R
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Sport
+              </p>
+              <div class="car relative mb-[44px] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (10).svg" alt="" />
+                <img
+                  class="absolute top-8"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">2 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <div class="stock">
+                  <h3 class="text-[22px] font-[700]">
+                    $80.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                  </h3>
+                  <h5 class="text-[#90A3BF] text-[14px] font-[700]">$100.00</h5>
+                </div>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recomendation mt-[32px] pb-[48px] d:pb-[64px]">
+        <div class="container">
+          <p
+            class="text-[14px] d:text-[16px] font-[600] text-[#90A3BF] mb-[20px] d:mb-[30px]"
+          >
+            Recomendation Car
+          </p>
+          <div class="wrapper grid d:grid-cols-4 items-center gap-[32px]">
+            <div class="card p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  All New Rush
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                SUV
+              </p>
+              <div class="flex justify-between d:flex-col">
+                <div
+                  class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto"
+                >
+                  <img src="./assets/icons/Car (2).svg" alt="" />
+                  <img
+                    class="absolute top-10"
+                    src="./assets/icons/shadow.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="flex flex-col d:flex-row gap-[12px] d:gap-[0] d:justify-between d:items-center mb-[28px] d:mb-[24px]"
+                >
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/gas-station.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">70L</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/Car (9).svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/profile-2user.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">
+                      6 People
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <div class="stock h-[44px]">
+                  <h3 class="text-[22px] font-[700]">
+                    $72.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                  </h3>
+                  <h5 class="text-[#90A3BF] text-[12px] font-[700]">$80.00</h5>
+                </div>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  CR - V
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                SUV
+              </p>
+              <div class="flex justify-between d:flex-col">
+                <div
+                  class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto"
+                >
+                  <img src="./assets/icons/Car (3).svg" alt="" />
+                  <img
+                    class="absolute top-10"
+                    src="./assets/icons/shadow.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="flex flex-col d:flex-row gap-[12px] d:gap-[0] d:justify-between d:items-center mb-[28px] d:mb-[24px]"
+                >
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/gas-station.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/Car (9).svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/profile-2user.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">
+                      6 People
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $80.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card p-[16px] d:p-[24px] bg-white rounded-[10px]  hover:rotate-[360deg] transition-[5s]">
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  All New Rush
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                SUV
+              </p>
+              <div class="flex justify-between d:flex-col">
+                <div
+                  class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto"
+                >
+                  <img src="./assets/icons/Car (4).svg" alt="" />
+                  <img
+                    class="absolute top-10"
+                    src="./assets/icons/shadow.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="flex flex-col d:flex-row gap-[12px] d:gap-[0] d:justify-between d:items-center mb-[28px] d:mb-[24px]"
+                >
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/gas-station.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">90L</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/Car (9).svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/profile-2user.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">
+                      6 People
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $74.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  CR - V
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                SUV
+              </p>
+              <div class="flex justify-between d:flex-col">
+                <div
+                  class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto"
+                >
+                  <img src="./assets/icons/Car (5).svg" alt="" />
+                  <img
+                    class="absolute top-10"
+                    src="./assets/icons/shadow.svg"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="flex flex-col d:flex-row gap-[12px] d:gap-[0] d:justify-between d:items-center mb-[28px] d:mb-[24px]"
+                >
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/gas-station.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/Car (9).svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                  </span>
+                  <span class="flex gap-[5px]">
+                    <img
+                      class="w-[24px]"
+                      src="./assets/icons/profile-2user.svg"
+                      alt="icon"
+                    />
+                    <p class="text-[#90A3BF] text-[14px] font-[500]">
+                      6 People
+                    </p>
+                  </span>
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $80.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  MG ZX Exclusice
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Hatchback
+              </p>
+              <div class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (6).svg" alt="" />
+                <img
+                  class="absolute top-14"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">70L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">4 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <div class="stock h-[44px]">
+                  <h3 class="text-[22px] font-[700]">
+                    $76.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                  </h3>
+                  <h5 class="text-[#90A3BF] text-[12px] font-[700]">$80.00</h5>
+                </div>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  New MG ZS
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Hatchback
+              </p>
+              <div class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (8).svg" alt="" />
+                <img
+                  class="absolute top-10"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">6 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $76.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  MG ZX Exclusice
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Hatchback
+              </p>
+              <div class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (7).svg" alt="" />
+                <img
+                  class="absolute top-12"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">4 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $74.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+            <!--  -->
+            <div
+              class="card hidden d:block p-[16px] d:p-[24px] bg-white rounded-[10px] hover:rotate-[360deg] transition-[5s]">"
+            >
+              <div class="flex items-center justify-between mb-[5px]">
+                <h5 class="text-[16px] d:text-[20px] d:font-[700] font-[600]">
+                  New MG ZS
+                </h5>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <p
+                class="text-[12px] d:text-[14px] d:font-[700] font-[500] text-[#90A3BF] mb-[32px] d:mb-[65px]"
+              >
+                Hatchback
+              </p>
+              <div class="car relative w-[50%] d:w-[100%] d:mb-[68px] d:m-auto">
+                <img src="./assets/icons/Car (8).svg" alt="" />
+                <img
+                  class="absolute top-10"
+                  src="./assets/icons/shadow.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="flex justify-between items-center mb-[28px] d:mb-[24px]"
+              >
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/gas-station.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">80L</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/Car (9).svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">Manual</p>
+                </span>
+                <span class="flex gap-[5px]">
+                  <img
+                    class="w-[24px]"
+                    src="./assets/icons/profile-2user.svg"
+                    alt="icon"
+                  />
+                  <p class="text-[#90A3BF] text-[14px] font-[500]">6 People</p>
+                </span>
+              </div>
+              <div class="grid grid-cols-2 gap-[16px]">
+                <h3 class="text-[22px] font-[700]">
+                  $80.00/ <span class="text-[16px] text-[#90A3BF]">day</span>
+                </h3>
+                <button
+                  class="btn py-[10px] rounded-[4px] px-[16px] d:px-[20px] bg-[#3563E9] text-[12px]d:text-[16px] text-white font-[600]"
+                >
+                  Rental Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="btn py-[10px] px-[16px] d:px-[20px] text-[12px] m-auto mt-[48px] d:mt-[64px] d:text-[16px] font-[600] text-white block bg-[#3563E9] rounded-[4px]"
+          >
+            Show more car
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-white">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="w-[375px] d:w-[100%] m-auto">
+          <div
+            class="flex items-center justify-center gap-[65px] d:gap-0 flex-col d:justify-between d:flex-row pt-[80px] pb-[36px] border-b-2 border-[#13131329]"
+          >
+            <div class="">
+              <img class="animate-bounce w-[148px] h-[44px] ..." src="./assets/icons/logo.svg" alt="" />
+              <p class="pt-[16px]">
+                Our vision is to provide convenience <br />
+                and help increase your sales business.
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap justify-between pb-[48px] px-[50px] d:flex-row d:gap-[65px]"
+            >
+              <ul class="flex flex-col gap-[16px] mr-[65px] d:mr-0">
+                <li class="">
+                  <a href="#" class=""><span>About</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>How it works</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Featured</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Partnership</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Bussiness Relation</span></a>
+                </li>
+              </ul>
+              <ul class="flex flex-col gap-[16px]">
+                <li class="">
+                  <a href="#" class=""><span>Community</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Events</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Blog</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Podcast</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Invite a friend</span></a>
+                </li>
+              </ul>
+              <ul
+                class="flex justify-start flex-col gap-[16px] translate-y-[-185px] d:translate-y-0"
+              >
+                <li class="">
+                  <a href="#" class=""><span>Socials</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Discord</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Instagram</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Twitter</span></a>
+                </li>
+                <li class="">
+                  <a href="#" class=""><span>Facebook</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="pt-[30px] pb-[60px] flex flex-col-reverse d:flex-row d:justify-between"
+          >
+            <p class="pt-[32px] d:pt-0">©2022 MORENT. All rights reserved</p>
+            <div class="flex justify-between">
+              <p class="">Privacy & Policy</p>
+              <p class="">Terms & Condition</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
